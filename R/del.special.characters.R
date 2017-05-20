@@ -7,7 +7,8 @@
 #' del.special.characters()
 
 
-del.special.characters = function(x) { 
-     clean = gsub("http:[a-zA-Z\\/\\.0-9]+|[a-zA-Z]+|[ 0-9０１-２３４５６７８９]","",x) 
-     clean
- }
+del.special.characters = function(x) {
+    clean = gsub("http:[a-zA-Z\\/\\.0-9]+|[a-zA-Z]+|[ 0-9０１-２３４５６７８９]", 
+        "", x)
+    clean
+}
