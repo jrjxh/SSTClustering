@@ -18,12 +18,5 @@ devtools::install_github('jrjxh/SSTClustering')
 library(SSTClustering) 
 sstcjob()
 ```
-# 依赖的第三方包 
-
-- hash
-
-- jiebaR
-
-- stringr
 
 
