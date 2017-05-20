@@ -3,7 +3,7 @@
 #' This function allows you to cluster articles.
 #' default: it use 1000 comments articles about bank services. 
 #' @param localfreq Frequency of keywords in selected articles.
-#' @param ratio Frequency of keywords in selected articles/All article background frequency.
+#' @param ratio Frequency of keywords in selected articles/Frequency of keywords in all articles.
 #' @param originalTextFileName Text filename used for parsing (one article in one line),You can provide your own text, remember with absolute paths, and one line of article.
 #' @keywords sstcjob
 #' @export 
@@ -190,9 +190,9 @@ cat("***********loop times",loopNum,"***********","\n");
 				
 				
 				cat("Please enter keyword number you want:\n");
-				cat("***********A. Select All Please enter A***********\n");
-				cat("***********B.Select Nothing Please enter B***********\n");
-				cat("***********C.If you select multiple keywords, Please use spaces***********\n");
+				cat("***********A. Select All. Please enter A***********\n");
+				cat("***********B.Select Nothing. Please enter B***********\n");
+				cat("***********Enter the corresponding number.(If you select multiple words, separate them with spaces***********\n");
 				
 				termSelection <-  readline("Please enter: ");
 				 if(termSelection == "A"){

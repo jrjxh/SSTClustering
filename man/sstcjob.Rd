@@ -11,7 +11,7 @@ sstcjob(localfreq = 0.005, ratio = 2,
 \arguments{
 \item{localfreq}{Frequency of keywords in selected articles.}
 
-\item{ratio}{Frequency of keywords in selected articles/All article background frequency.}
+\item{ratio}{Frequency of keywords in selected articles/Frequency of keywords in all articles.}
 
 \item{originalTextFileName}{Text filename used for parsing (one article in one line),You can provide your own text, remember with absolute paths, and one line of article.}
 }
