@@ -12,6 +12,9 @@ devtools::install_github('jrjxh/SSTClustering')
 ```
 # 使用方法
 ```s
+#install.package("hash")
+#install.package("jiebaR")
+#install.package("stirngr")
 library(SSTClustering) 
 sstcjob()
 ```
