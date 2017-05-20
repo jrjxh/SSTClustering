@@ -14,7 +14,7 @@ devtools::install_github('jrjxh/SSTClustering')
 ```s
 #install.package("hash")
 #install.package("jiebaR")
-#install.package("stirngr")
+#install.package("stringr")
 library(SSTClustering) 
 sstcjob()
 ```
