@@ -21,8 +21,8 @@ default: it use 1000 comments articles about bank services.
 }
 \examples{
 sstcjob()
-sstcjob(localfreq=0.005,ratio=2,originalTextFileName=system.file("extdata", "good_comments.txt", package = "SSTClustering"))
+sstcjob(localfreq=0.005,ratio=2,originalTextFileName=system.file('extdata', 'good_comments.txt', package = 'SSTClustering'))
 ###Not run
-sstcjob(localfreq=0.005,ratio=2,originalTextFileName="d:\\\\a.txt")
+sstcjob(localfreq=0.005,ratio=2,originalTextFileName='d:\\\\a.txt')
 }
 \keyword{sstcjob}
