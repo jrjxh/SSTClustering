@@ -1,10 +1,12 @@
 Package: SSTClustering
 Title: semi-supervised text clustering
 Version: 0.1
+Date: 2017-05-20
 Authors@R: c(
   person("Xiaoke", "Gui", email = "guixiaoke@cmbc.com.cn", role = c("aut", "cre")),
   person("Yanbo", "Wang", email = "wangyanbo@cmbc.com.cn", role = c("aut", "cph"))
   )
+Maintainer: Xiaoke Gui <guixiaoke@cmbc.com.cn>
 Description: semi-supervised text clustering.
 Depends: R (>= 3.2.5)
 License: GPL
