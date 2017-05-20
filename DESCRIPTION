@@ -7,7 +7,7 @@ Authors@R: c(
   )
 Description: semi-supervised text clustering.
 Depends: R (>= 3.2.5)
-License: What license is it under?
+License: GPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
